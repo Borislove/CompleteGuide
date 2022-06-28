@@ -11,5 +11,12 @@ public class DoWhile {
             System.out.println("такт " + n);
             n--;
         } while (n > 0);
+
+        /* do {
+        System.out.println("такт " + n);
+         } while (--n>0);
+         */
     }
 }
+
+
