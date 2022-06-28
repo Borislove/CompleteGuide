@@ -20,7 +20,6 @@ public class StringSwitch {
             default:
                 System.out.println("не совпало");
                 break;
-
         }
     }
 }
