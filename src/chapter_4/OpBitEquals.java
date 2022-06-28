@@ -6,13 +6,13 @@ public class OpBitEquals {
         int b = 2;
         int c = 3;
 
-        a |=4;
-        b >>=1;
-        c <<=1;
-        a ^=c;
+        a |= 4;
+        b >>= 1;
+        c <<= 1;
+        a ^= c;
 
-        System.out.println("a = "+a);
-        System.out.println("b = "+b);
-        System.out.println("c = "+c);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
     }
 }
