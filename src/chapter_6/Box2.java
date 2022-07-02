@@ -16,6 +16,8 @@ class BoxDemo2 {
 
         Box2 mybox1 = new Box2();
         Box2 mybox2 = new Box2();
+        Box2 mybox3; //объявить ссылку на объект
+        mybox3 = new Box2(); //выделить память для объекта Box2
         double vol;
 
         //присвоить знчение переменным экземпляра mybox1
