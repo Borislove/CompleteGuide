@@ -2,7 +2,7 @@ package chapter_2;
 
 /*
 Это простая программа на Java.
-Присвоить исходному файлу имя "Example.java"
+Присвоить исходному файлу имя "CallingCons.java"
  */
 public class Example {
     //Эта программа начинается с вызова метода main()
