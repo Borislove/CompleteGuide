@@ -40,14 +40,14 @@ public class Box {
 
 //расширить класс Box, включив в него поле веса
 class BoxWeight extends Box {
-    double weght; //вес параллелепипеда
+    double weight; //вес параллелепипеда
 
     //конструктор BoxWeight()
     BoxWeight(double w, double h, double d, double m) {
         width = w;
         height = h;
         depth = d;
-        weght = m;
+        weight = m;
     }
 }
 
@@ -59,10 +59,10 @@ class DemoBoxWeight {
 
         vol = mybox1.volume();
         System.out.println("Объем mybox1 равен "+vol);
-        System.out.println("Вес mybox1 равен "+mybox1.weght);
+        System.out.println("Вес mybox1 равен "+mybox1.weight);
 
         vol = mybox2.volume();
         System.out.println("Объем mybox2 равен "+vol);
-        System.out.println("Вес mybox2 равен "+mybox2.weght);
+        System.out.println("Вес mybox2 равен "+mybox2.weight);
     }
 }
