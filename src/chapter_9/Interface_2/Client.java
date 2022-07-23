@@ -5,7 +5,7 @@ import chapter_9.Interface.Callback;
 public class Client implements Callback {
     //Реализовать интерфейс Callback
     public void callback(int p) {
-        System.out.println("Мето callback(), " + " вызываемый со значением " + p);
+        System.out.println("Метод callback(), " + " вызываемый со значением " + p);
     }
 
     void nonIfaceMeth() {
