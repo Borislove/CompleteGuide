@@ -7,7 +7,7 @@ public class FixedStack implements IntStack {
     private int tos;
 
     //Выделить память и инициализировать стек
-    FixedStack(int size) {
+    public FixedStack(int size) {
         stck = new int[size];
         tos = -1;
     }

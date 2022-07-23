@@ -9,7 +9,7 @@ public class DynStack implements IntStack {
     private int tos;
 
     //Выделить память и инициализировать стек
-    DynStack(int size) {
+    public DynStack(int size) {
         stck = new int[size];
         tos = -1;
     }
