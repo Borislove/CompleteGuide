@@ -1,10 +1,5 @@
 package chapter_12;
 
-//перечисление сортов яблок
-enum Apple {
-    Jonathan, GoldenDel, RedDel, Winesap, Cortland
-}
-
 public class EnumDemo {
     public static void main(String[] args) {
 
