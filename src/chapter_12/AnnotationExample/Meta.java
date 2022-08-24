@@ -1,4 +1,4 @@
-package chapter_12;
+package chapter_12.AnnotationExample;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

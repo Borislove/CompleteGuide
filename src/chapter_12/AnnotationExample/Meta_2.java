@@ -1,7 +1,8 @@
-package chapter_12;
+package chapter_12.AnnotationExample;
 
-import java.lang.annotation.*;
-import java.lang.reflect.*;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.reflect.Method;
 
 @Retention(RetentionPolicy.RUNTIME)
 @interface MyAnno_2 {
