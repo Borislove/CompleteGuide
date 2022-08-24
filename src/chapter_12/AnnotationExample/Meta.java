@@ -14,7 +14,7 @@ import java.lang.reflect.Method;
 
 public class Meta {
     //Аннотировать метод
-    @MyAnno(str = "Пример аннотации", val = 100)
+    @MyAnno_3(str = "Пример аннотации", val = 100)
     public static void myMeth() {
         Meta ob = new Meta();
 
@@ -25,7 +25,7 @@ public class Meta {
             //затем получить объект типа Method, представляющий данный метод
             Method m = c.getMethod("myMeth");
             //далее получить аннотацию для данного класса
-            MyAnno anno = m.getAnnotation(MyAnno.class);
+            MyAnno_3 anno = m.getAnnotation(MyAnno_3.class);
             //и наконец, вывести значения членов аннотации
             System.out.println(anno.str() + " " + anno.val());
         } catch (NoSuchMethodException exc) {
