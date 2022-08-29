@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//Чтение символьных строк с консоли средставми класса BufferedReader
+//Чтение символьных строк с консоли средствами класса BufferedReader
 public class BRReadLines {
     public static void main(String[] args) throws IOException {
         //создать поток ввода типа BufferedReader,
